@@ -1,0 +1,46 @@
+body {
+    font-family: "Courier New", monospace;
+    background-color: #001f1f;
+    color: #7FFFD4;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #002b2b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ffaa33;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ffaa;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cc88;
+}
+
+.weather {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.error {
+    color: #ff5555;
+    margin-top: 15px;
+}
